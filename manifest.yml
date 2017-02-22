@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: coursaiot
+  host: coursaiot
+  disk_quota: 1024M
+  services:
+  - coursaiot-cloudantNoSQLDB
+  - coursaiot-iotf-service
